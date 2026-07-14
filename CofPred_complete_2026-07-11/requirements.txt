@@ -1,0 +1,46 @@
+# ============================================================
+# CofPred - Coffee Price Prediction Project
+# Requirements
+# ============================================================
+
+# --- Thu thập dữ liệu thời tiết (Open-Meteo) ---
+openmeteo-requests
+requests-cache
+retry-requests
+
+# --- HTTP & API ---
+requests
+
+# --- Xử lý & phân tích dữ liệu ---
+numpy
+pandas
+
+# --- Machine Learning ---
+scikit-learn
+xgboost
+lightgbm
+statsmodels
+scipy
+
+# --- Notebook ---
+jupyter
+ipykernel
+
+# --- Visualization ---
+matplotlib
+seaborn
+streamlit
+
+# --- Model export / inference ---
+joblib
+
+# --- Web scraping ---
+curl-cffi
+beautifulsoup4
+lxml
+
+# --- Financial data ---
+yfinance
+
+# --- File formats ---
+openpyxl

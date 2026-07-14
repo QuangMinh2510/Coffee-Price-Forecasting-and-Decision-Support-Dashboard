@@ -1,0 +1,32 @@
+{
+  "data": "/workspace/scratch/3e6d669d7229/cofpred/data/processed/gia_cafe_master_full.csv",
+  "rows": 1566,
+  "date_min": "2020-01-01",
+  "date_max": "2025-12-31",
+  "features": [
+    "target_lag1",
+    "target_lag2",
+    "target_lag3",
+    "target_ret_lag1",
+    "MA5",
+    "MA10",
+    "std5",
+    "dayofweek",
+    "month",
+    "london_vnd_kg_lag1",
+    "usdvnd_lag1",
+    "diesel",
+    "diesel_chg_1m",
+    "diesel_chg_3m",
+    "Luong_lag1m",
+    "rain_90d",
+    "oni",
+    "waterbal_90d",
+    "area_tn",
+    "prod_tn",
+    "yield_tn",
+    "tonkho_tan",
+    "dongia_lag1m",
+    "dongia_ret_lag1m"
+  ]
+}

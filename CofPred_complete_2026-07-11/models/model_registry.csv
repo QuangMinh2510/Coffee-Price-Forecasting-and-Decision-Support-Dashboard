@@ -1,0 +1,9 @@
+﻿model,horizon,mode,MAE,RMSE,MAPE_pct,DA_pct,test_rows,trained_until,latest_prediction,model_path,prediction_path
+LinearRegression,1,delta,2669.9743067812415,3636.7686934451062,2.336406022253641,45.36423841059602,302,2025-12-31,97722.28717829139,models/model_linearregression_h1_delta.joblib,results/preds/web/preds_linearregression_h1_delta.csv
+RandomForest,1,delta,2808.234655325129,4600.638171965894,2.349021438320404,48.34437086092716,302,2025-12-31,97098.14263333334,models/model_randomforest_h1_delta.joblib,results/preds/web/preds_randomforest_h1_delta.csv
+RandomForest,5,delta,6969.44755596836,10337.192099332131,5.995436949096344,50.0,298,2025-12-31,95482.19843333334,models/model_randomforest_h5_delta.joblib,results/preds/web/preds_randomforest_h5_delta.csv
+LinearRegression,5,delta,11006.673651937534,12662.152923135993,9.741613854892249,45.63758389261745,298,2025-12-31,98404.97060161212,models/model_linearregression_h5_delta.joblib,results/preds/web/preds_linearregression_h5_delta.csv
+RandomForest,21,delta,9281.790909862988,11889.198379415458,8.386540875255625,56.08108108108109,296,2025-12-31,102889.43532380952,models/model_randomforest_h21_delta.joblib,results/preds/web/preds_randomforest_h21_delta.csv
+LinearRegression,21,delta,13117.210503329017,17121.076653976266,12.209195201674302,44.25675675675676,296,2025-12-31,103565.05667454051,models/model_linearregression_h21_delta.joblib,results/preds/web/preds_linearregression_h21_delta.csv
+RandomForest,63,delta,13749.740357379029,17464.158456268062,12.843269068144838,48.44290657439446,289,2025-12-31,110236.35911507937,models/model_randomforest_h63_delta.joblib,results/preds/web/preds_randomforest_h63_delta.csv
+LinearRegression,63,delta,30718.758614058133,35824.84543610242,28.291018882704762,44.29065743944637,289,2025-12-31,119648.57508334517,models/model_linearregression_h63_delta.joblib,results/preds/web/preds_linearregression_h63_delta.csv
