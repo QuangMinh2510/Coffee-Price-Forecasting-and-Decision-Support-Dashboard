@@ -1,1 +1,15 @@
-/.venv
+__pycache__/
+*.py[cod]
+.venv/
+.streamlit/secrets.toml
+.DS_Store
+
+# Model artifacts generated locally
+models/*.joblib
+results/**/*.png
+results/**/*.jpg
+results/**/*.jpeg
+
+# Keep structured CSV outputs for the dashboard
+!results/predictions/*.csv
+!results/feature_importance/*.csv
